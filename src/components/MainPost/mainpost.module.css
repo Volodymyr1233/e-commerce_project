@@ -1,0 +1,87 @@
+.mainPostContainer {
+    height: 663px;
+    min-width: 1440px;
+    margin-top: 24px;
+    background: url("./images/backgroundImage.png");
+    font-family: "Satoshi Light", sans-serif;
+    position: relative;
+}
+
+
+.titleBlock {
+    width: 700px;
+    padding: 100px 0 0 100px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 64px;
+    margin: 0;
+}
+
+.shopButton {
+    height: 52px;
+    width: 210px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: "Satoshi Light", sans-serif;
+    font-size: 16px;
+}
+
+.starSmall {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+
+.starBig {
+    position: absolute;
+    left: 85%;
+    top: 15%;
+}
+
+
+
+
+.addInfo {
+    margin: 48px 0 0 100px;
+    h2 {
+        font-family: "Satoshi Bold", sans-serif;
+        font-size: 40px;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.addInfoContainer {
+    display: inline-block;
+}
+
+
+.addInfoItem {
+    display: inline-block;
+}
+
+.addInfo .addInfoContainer:first-child .addInfoItem{
+    display: inline-block;
+    margin-right: 32px;
+    margin-left: 0;
+}
+
+.addInfo:not(:first-child) .addInfoItem{
+    display: inline-block;
+    margin: 0 32px;
+}
+
+.verticalLine {
+    position: absolute;
+    display: inline-block;
+    border-left: 1px solid gray;
+    height: 75px;
+}

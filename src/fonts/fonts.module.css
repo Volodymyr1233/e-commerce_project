@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Integral CF Bold";
+    src: url("/src/fonts/IntegralCF-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Satoshi Light";
+    src: url("/src/fonts/Satoshi-Light.otf");
+}
+
+@font-face {
+    font-family: "Satoshi Bold";
+    src: url("/src/fonts/Satoshi-Bold.otf");
+}

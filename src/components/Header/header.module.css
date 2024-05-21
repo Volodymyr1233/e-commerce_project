@@ -1,0 +1,79 @@
+@import "/src/fonts/fonts.module.css";
+
+* {
+    box-sizing: border-box;
+}
+
+.header_line {
+    height: 38px;
+    background-color: black;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1340px;
+    height: 48px;
+    margin: 24px auto 0 auto;
+}
+
+.mainLabel {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+h1 {
+    display: inline;
+    font-family: "Integral CF Bold", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.header_list {
+    list-style: none;
+    display: inline;
+
+    li {
+        display: inline;
+        padding: 0px 10px 20px 10px;
+        font-size: 16px;
+        font-family: "Satoshi Light", sans-serif;
+    }
+}
+
+.searchContainer {
+    height: inherit;
+    position: relative;
+}
+.header_search {
+    margin-left: 40px;
+    width: 577px;
+    height: inherit;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    border: none;
+    outline: none;
+    padding-left: 52px;
+    font-size: 16px;
+    font-family: "Satoshi Light", sans-serif;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 12px;
+    left: 56px;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 26px;
+
+    span {
+        margin-left: 14px;
+        font-size: 40px;
+    }
+}
+
+

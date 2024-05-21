@@ -1,0 +1,11 @@
+.arrivalsContainer {
+    height: 773px;
+    text-align: center;
+}
+
+
+.arrivalsHeader {
+    display: inline-block;
+    font-size: 48px;
+    padding-top: 73px;
+}
