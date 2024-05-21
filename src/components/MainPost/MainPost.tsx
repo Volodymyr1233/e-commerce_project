@@ -4,13 +4,6 @@ import blackStarSmall from "./images/blackStarSmall.png";
 import blackStarBig from "./images/blackStarBig.png";
 
 function MainPost()  {
-    //TODO
-    // let addInfoDict = {
-    //     "200+": "International Brands",
-    //     "2,000+": "High-Quality Products",
-    //     "30,000+": "Happy Customers"
-    // }
-
     let addInfoArr = [
         {title: "200+", text: "International Brands", endLine: true},
         {title: "2,000+", text: "High-Quality Products", endLine: true},
