@@ -1,0 +1,19 @@
+.productImage {
+    width: 295px;
+    height: 298px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: "Satoshi Bold", sans-serif;
+}
+
+.rate {
+    font-size: 14px;
+    font-family: "Satoshi Light", sans-serif;
+}
+
+.price {
+    font-size: 24px;
+    font-family: "Satoshi Bold", sans-serif;
+}

@@ -2,7 +2,8 @@
     height: 663px;
     min-width: 1440px;
     margin-top: 24px;
-    background: url("./images/backgroundImage.png");
+    background: url("./images/backgroundImage.png") no-repeat;
+    background-size: cover;
     font-family: "Satoshi Light", sans-serif;
     position: relative;
 }

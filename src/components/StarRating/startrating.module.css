@@ -1,0 +1,16 @@
+span {
+    font-size: 19px;
+}
+
+.starColoredStyle {
+    color: #FFC633;
+}
+
+.starPartColoredStyle {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.starUnColoredStyle {
+    color: white;
+}

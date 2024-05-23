@@ -9,7 +9,8 @@ interface useArrivalProductsProps {
 
 const useArrivalProducts = ({setArrivalProducts, limit}: useArrivalProductsProps) => {
     useMemo(() => {
-        requestAPI.getLimitProducts(limit).then(result => {
+        requestAPI.getLimitProducts(limit)
+            .then(result => {
             let arrivalProductsArray = [];
             for (let i = 0; i < limit; i++) {
                 const arrivalProduct = {
@@ -24,8 +25,10 @@ const useArrivalProducts = ({setArrivalProducts, limit}: useArrivalProductsProps
             }
 
             setArrivalProducts(arrivalProductsArray);
-
-            console.log(arrivalProductsArray);
         })
+            .catch(error => console.log("Ooops, error occured!"))
+
     }, [])
 }
+
+export default useArrivalProducts;
