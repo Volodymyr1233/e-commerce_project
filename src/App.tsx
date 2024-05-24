@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import MainPost from "./components/MainPost/MainPost";
 import ScrollLine from "./components/ScrollLine/ScrollLine";
 import NewArrivals from "./components/Arrivals/Arrivals";
+import TopSelling from "./components/TopSelling/TopSelling";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <MainPost/>
         <ScrollLine/>
         <NewArrivals/>
+        <TopSelling/>
     </div>
   );
 }

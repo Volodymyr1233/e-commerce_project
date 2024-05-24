@@ -23,9 +23,9 @@ function StartRating({rate}: StartRatingProps) {
     }
 
     return (
-        <div>
+        <span>
             {starsArr}
-        </div>
+        </span>
     )
 }
 

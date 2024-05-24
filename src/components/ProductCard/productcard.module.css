@@ -1,6 +1,17 @@
+p {
+    padding: 0;
+    margin: 4px 0;
+}
+
+.productCard {
+    width: 295px;
+    text-align: left;
+}
+
 .productImage {
     width: 295px;
     height: 298px;
+    border: 5px solid gray;
 }
 
 .title {
@@ -11,6 +22,7 @@
 .rate {
     font-size: 14px;
     font-family: "Satoshi Light", sans-serif;
+    display: inline-block;
 }
 
 .price {

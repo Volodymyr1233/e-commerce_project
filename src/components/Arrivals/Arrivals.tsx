@@ -4,7 +4,6 @@ import requestAPI from "../../API/requestAPI";
 import {Product} from "../../models/Product";
 import useArrivalProducts from "../../hooks/useArrivalProducts";
 import ProductCard from "../ProductCard/ProductCard";
-import StartRating from "../StarRating/StartRating";
 
 
 
@@ -15,9 +14,16 @@ function Arrivals() {
 
     return (
         <div className={cl.arrivalsContainer}>
-          <h1 className={cl.arrivalsHeader}>New Arrivals</h1>
-            <ProductCard title={"T-SHIRT WITH TAPE DETAILS"} rate={4.7} price={120} image={"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"}/>
-            <StartRating rate={4.5}/>
+            <h1 className={cl.arrivalsHeader}>New Arrivals</h1>
+            <div className={cl.arrivalProducts}>
+                {arrivalProducts.map(arrivalProduct =>
+                    <ProductCard title={arrivalProduct.title} rate={arrivalProduct.rate} price={arrivalProduct.price}
+                                 image={arrivalProduct.image}/>
+                )}
+            </div>
+            <button className={cl.viewButton}>View All</button>
+                <hr className={cl.endLine}/>
+
         </div>
     );
 }

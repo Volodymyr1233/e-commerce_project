@@ -12,3 +12,8 @@
     font-family: "Satoshi Bold";
     src: url("/src/fonts/Satoshi-Bold.otf");
 }
+
+@font-face {
+    font-family: "Satoshi Medium";
+    src: url("/src/fonts/Satoshi-Medium.otf");
+}

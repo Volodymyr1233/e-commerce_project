@@ -8,4 +8,32 @@
     display: inline-block;
     font-size: 48px;
     padding-top: 73px;
+    margin: 0;
+}
+
+.arrivalProducts {
+    display: flex;
+    gap: 20px;
+    width: 1240px;
+    margin: 55px auto 0 auto;
+}
+
+.viewButton {
+    width: 218px;
+    height: 52px;
+    margin-top: 36px;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    font-family: "Satoshi Medium", sans-serif;
+    font-size: 16px;
+}
+
+
+
+.endLine {
+    width: 1240px;
+    margin-top: 64px;
+    border: none;
+    box-shadow: 0.45px 0.45px 0.45px 0.45px lightgray;
 }
