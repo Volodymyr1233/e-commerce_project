@@ -3,8 +3,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import MainPost from "./components/MainPost/MainPost";
 import ScrollLine from "./components/ScrollLine/ScrollLine";
-import NewArrivals from "./components/Arrivals/Arrivals";
-import TopSelling from "./components/TopSelling/TopSelling";
+import Sections from "./components/Sections/Sections";
 
 function App() {
   return (
@@ -12,8 +11,7 @@ function App() {
         <Header/>
         <MainPost/>
         <ScrollLine/>
-        <NewArrivals/>
-        <TopSelling/>
+        <Sections/>
     </div>
   );
 }

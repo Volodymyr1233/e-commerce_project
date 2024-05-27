@@ -18,10 +18,6 @@ function StartRating({rate}: StartRatingProps) {
 
     starsArr.push(<span className={cl.starPartColoredStyle} style={{backgroundImage: `linear-gradient(to right, #FFC633 ${rateDecimalPartPercentage}%, white ${100-rateDecimalPartPercentage}%)`}}>★</span>)
 
-    for (let i = rateIntegerPart+1; i < 5; i++) {
-        starsArr.push(<span className={cl.starUnColoredStyle}>★</span>)
-    }
-
     return (
         <span>
             {starsArr}

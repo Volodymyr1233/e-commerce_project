@@ -1,5 +1,4 @@
 p {
-    padding: 0;
     margin: 4px 0;
 }
 
@@ -23,6 +22,7 @@ p {
     font-size: 14px;
     font-family: "Satoshi Light", sans-serif;
     display: inline-block;
+    padding-top: -2px;
 }
 
 .price {
