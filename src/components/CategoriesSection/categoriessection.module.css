@@ -1,0 +1,13 @@
+.categoriesContainer {
+    width: 1240px;
+    height: 866px;
+    background-color: #F0F0F0;
+    margin: 0 auto;
+    border-radius: 33px;
+    text-align: center;
+}
+
+.categoriesTitle {
+    display: inline-block;
+    margin-top: 70px;
+}

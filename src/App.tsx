@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import MainPost from "./components/MainPost/MainPost";
 import ScrollLine from "./components/ScrollLine/ScrollLine";
 import Sections from "./components/Sections/Sections";
+import CategoriesSection from "./components/CategoriesSection/CategoriesSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <MainPost/>
         <ScrollLine/>
         <Sections/>
+        <CategoriesSection/>
     </div>
   );
 }
