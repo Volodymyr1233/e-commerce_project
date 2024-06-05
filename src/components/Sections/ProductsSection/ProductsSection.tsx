@@ -2,13 +2,18 @@ import React, {useState} from 'react';
 import cl from "./productssection.module.css";
 import {Product} from "../../../models/Product";
 import ProductCard from "../../ProductCard/ProductCard";
+import useProductsSection from "../../../hooks/useProductsSection";
 
 
 interface ProductsSection {
     title: string,
-    products: Product[],
+    sliceStart: number,
+    limit: number,
 }
-function ProductsSection({title, products}: ProductsSection) {
+function ProductsSection({title, sliceStart, limit}: ProductsSection) {
+    const [products, setProducts] = useState<Product[]>([]);
+    useProductsSection({sliceStart: sliceStart, limit: limit, setProducts: setProducts})
+
     return (
         <div className={cl.sectionContainer}>
             <h1 className={cl.sectionHeader}>{title}</h1>

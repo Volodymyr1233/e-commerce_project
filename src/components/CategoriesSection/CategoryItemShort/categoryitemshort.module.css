@@ -1,0 +1,22 @@
+.categoryShortContainer {
+    display: inline-block;
+    grid-column: span 1;
+    width: 407px;
+}
+
+
+.titleCategory {
+    display: inline;
+    font-family: "Satoshi Bold", sans-serif;
+    font-size: 22px;
+    position: absolute;
+    z-index: 1;
+    margin: 22px 0 0 15px;
+}
+
+.image {
+    width: 407px;
+    height: 289px;
+    border-radius: 15px;
+    position: relative;
+}
