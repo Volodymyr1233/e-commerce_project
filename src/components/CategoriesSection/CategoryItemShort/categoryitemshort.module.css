@@ -1,21 +1,21 @@
 .categoryShortContainer {
     display: inline-block;
-    grid-column: span 1;
-    width: 407px;
+    grid-column: span 2;
+    width: 100%;
 }
 
 
 .titleCategory {
     display: inline;
     font-family: "Satoshi Bold", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     position: absolute;
     z-index: 1;
-    margin: 22px 0 0 15px;
+    margin: 22px 0 0 10px;
 }
 
 .image {
-    width: 407px;
+    width: 100%;
     height: 289px;
     border-radius: 15px;
     position: relative;

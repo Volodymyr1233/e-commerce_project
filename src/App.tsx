@@ -5,6 +5,7 @@ import MainPost from "./components/MainPost/MainPost";
 import ScrollLine from "./components/ScrollLine/ScrollLine";
 import Sections from "./components/Sections/Sections";
 import CategoriesSection from "./components/CategoriesSection/CategoriesSection";
+import ClientsFeedback from "./components/ClientsFeedback/ClientsFeedback";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ScrollLine/>
         <Sections/>
         <CategoriesSection/>
+        <ClientsFeedback/>
     </div>
   );
 }
